@@ -1,0 +1,449 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "./assets/icon/style.scss";
+
+//tip
+.ant-modal-mask {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.ant-modal-header {
+    align-items: center;
+    background-color: #bfdff4;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    padding: 5px 24px;
+    -ms-box-sizing: border-box;
+}
+
+.ant-modal-content {
+
+    border-radius: 1px;
+
+    .ant-modal-header {
+        height: 30px;
+
+        .ant-modal-title {
+            font-size: 14px;
+            font-weight: bold;
+            height: 30px;
+            line-height: 22px;
+            padding-left: 0;
+            padding-right: 40px;
+            color: #2e2c2b;
+            cursor: move;
+        }
+    }
+
+    .ant-modal-body {
+        background-color: #fff;
+        font-size: 16px;
+        padding: 0px !important;
+
+        .content {
+            margin-bottom: 0;
+        }
+    }
+
+    .ant-modal-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid rgb(228, 228, 228);
+        background-color: rgb(246, 246, 246);
+        height: 50px;
+
+        .ant-btn {
+            border-radius: 0;
+            width: 80px;
+            height: 30px;
+            border: 1px solid rgb(192, 192, 192);
+            font-size: 16px;
+        }
+    }
+}
+
+.ant-modal-close-x {
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
+    cursor: pointer;
+}
+
+.ant-modal-close-x:before {
+    background: #fff;
+    border-radius: 50%;
+}
+
+.tip[_ngcontent-c14] {
+    width: 320px;
+    height: 90px;
+}
+
+.tip[_ngcontent-c15] .content[_ngcontent-c15] {
+    text-align: center;
+    line-height: 20px;
+    width: 320px;
+    height: 50px;
+}
+
+
+.ant-table-thead {
+    .ant-table-row {
+        border: 0
+    }
+}
+
+.select-box {
+    border-radius: 0
+}
+
+
+.ant-collapse {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.ant-collapse>.ant-collapse-item {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    height: 30px;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header .arrow {
+    left: auto !important;
+    right: 23px !important;
+}
+
+.ant-collapse-content {
+    overflow: visible !important;
+}
+
+
+.ant-select-selection:hover {
+    border-color: silver #D9D9D9 #D9D9D9;
+}
+
+.ant-select-selection:hover {
+    border-radius: 0;
+}
+
+.ant-select-selection--single {
+    height: 25px;
+    border-radius: 0;
+}
+
+.ant-select-dropdown-menu-item:hover {
+    background: #044599;
+}
+
+.ant-select-arrow {
+    font-size: 14px;
+}
+
+.ant-btn {
+    border-radius: 0;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #c0c0c0;
+    font-size: 12px;
+    padding: 0 12px !important;
+    background-color: #fff;
+
+    span {
+        padding: 0 14px;
+        color: #444;
+        height: 16px;
+        line-height: 16px;
+    }
+}
+
+.ant-btn:hover {
+    border-color: #909090;
+}
+
+.page {
+    padding: 8px;
+}
+
+.ant-card-head {
+    padding: 0;
+}
+
+.ant-card-head-title {
+    padding: 0;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgb(250, 250, 250);
+}
+
+.ant-card-bordered {
+    border-color: #d7d7d7;
+}
+
+// start by Hill
+/*通用*/
+* {
+    font-size: 12px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/*按钮*/
+.ant-btn {
+    padding: 0 8px;
+}
+
+.ant-btn span {
+    padding: 0;
+}
+
+.ant-btn>.anticon+span {
+    margin-left: 3px;
+}
+
+/*动态增减*/
+.dynamic-add-button {
+    margin-right: 5px;
+}
+
+.dynamic-delete-button, .dynamic-add-button {
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    font-size: 18px;
+    color: #fff;
+    transition: all .3s;
+}
+
+.dynamic-delete-button:hover, .dynamic-add-button:hover {
+    color: #777;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.display-initail, .inline-block {
+    display: inline;
+}
+
+.dynamic-search-button {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: -8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-guanbi {
+    cursor: pointer;
+}
+
+.ant-input-affix-wrapper .ant-input-suffix {
+    right: 40px;
+}
+
+.ant-input-affix-wrapper .ant-input-suffix :not(.anticon) {
+    color: #999;
+}
+
+/*表单元素通用*/
+.ant-input {
+    padding: 4px 5px;
+    margin-top: 5px;
+}
+
+.ant-input,
+.ant-btn {
+    height: 24px;
+    border-radius: 0;
+    line-height: 24px;
+}
+
+.ant-input {
+    height: 32px;
+}
+
+.ant-table-middle>.ant-table-content>.ant-table-scroll>.ant-table-body>table>.ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.ant-btn {
+    line-height: 1;
+}
+
+.ant-form select[multiple],
+.ant-form select[size],
+form textarea.ant-input {
+    height: auto;
+}
+
+.ant-select-selection__rendered {
+    line-height: 24px;
+}
+
+.ant-select-dropdown-menu-item {
+    height: 24px;
+    line-height: 14px;
+}
+
+.ant-select-dropdown-menu-item:hover {
+    color: #fff;
+}
+
+.ant-select-dropdown-menu-item-selected {
+    background-color: #D6E8F6;
+}
+
+.ant-select-dropdown-menu-item:first-child,
+.ant-select-dropdown-menu-item:last-child {
+    border-radius: 0;
+}
+
+.ant-form-item-required:before {
+    content: '';
+}
+
+.ant-form-item-label .ant-form-item-required:after {
+    content: '*';
+    color: #f5222d;
+    margin-left: 5px;
+}
+
+.ant-calendar-picker {
+    top: 3px;
+    left: 0;
+    display: block;
+}
+
+.ant-calendar-picker .ant-calendar-picker-input {
+    height: 25px;
+    line-height: 22px;
+    padding: 0 11px;
+}
+
+.ant-form-item-label label:after {
+    content: '';
+}
+
+.ant-form-item label {
+    left: -5px;
+}
+
+.ant-input[disabled] {
+    background: #fafafa;
+}
+
+.ant-form-item {
+    margin-bottom: 0;
+}
+
+.ant-input-number-input,
+.ant-input-number {
+    border-radius: 0;
+    width: 100%;
+}
+
+.form-extra-info {
+    line-height: 36px;
+    padding-left: 2px;
+}
+
+.form-error {
+    color: #f5222d;
+    line-height: 1.5;
+    margin-top: 3px;
+    clear: both;
+}
+
+/*ant通用*/
+.ant-advanced-search-form .ant-form-item {
+    margin-bottom: 0;
+}
+
+.ant-advanced-search-form {
+    border-radius: 0 !important;
+}
+
+.ant-table-middle>.ant-table-content>.ant-table-body>table>.ant-table-tbody>tr>td {
+    text-align: center;
+}
+
+.ant-extra-info {
+    color: rgba(0, 0, 0, .85);
+}
+
+/*end by Hill*/
+
+/*tabs*/
+.ant-tabs-bar {
+    border-bottom: 2px solid #9fb9ff;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #000000;
+    font-weight: bold;
+}
+
+.ant-tabs-ink-bar {
+    height: 0;
+}
+
+.ant-tabs-ink-bar::after {
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: calc(50% - 7px);
+    top: -7px;
+    border-width: 0 7px 7px;
+    border-style: solid;
+    border-color: transparent transparent #9fb9ff;
+}
+
+/*ie9*/
+.ant-card-head-wrapper, .ant-card-head-title {
+    display: block;
+    box-sizing: border-box;
+}
+
+.ant-input {
+    line-height: 14px;
+}

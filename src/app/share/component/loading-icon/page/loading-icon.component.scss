@@ -1,0 +1,22 @@
+.loading-area {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 100000;
+
+    .loading {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 50%;
+        left: 50%;
+        margin-left: -25px;
+        margin-right: -25px;
+        img {
+            width: 30px;
+            position: absolute;
+        }
+    }
+}
+

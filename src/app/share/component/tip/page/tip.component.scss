@@ -1,0 +1,27 @@
+.tip{
+    overflow: hidden;
+
+    span.float-left {
+        margin-left: 30px;
+    }
+
+    .icon-jinggao2{
+        color:rgb(248, 229, 61);
+        font-size: 30px;
+    }
+    .icon-gouxuanzhong{
+        color:rgb(61, 248, 86);
+        font-size: 30px;
+    }
+    .icon-cuowuguanbi-{
+        color:rgb(248, 74, 61);
+        font-size: 30px;
+    }
+    .content{
+        padding-left: 10px;
+        width: auto !important;
+        // height: 45px;
+        text-align: center;
+        line-height: 45px;
+    }
+}
